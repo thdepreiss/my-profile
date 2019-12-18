@@ -1,0 +1,101 @@
+body {
+	font-family: Courier;	
+	background-color: #293a80;
+	color: orange;
+	letter-spacing: 60%;
+}
+h1	{
+	color: #ea5e5e;
+	font-family: 'BioRhyme', serif;
+	font-weight: 400
+	font-size: 100px;
+}
+
+h2 {
+   color: #f39422;
+	font-family: 'Josefin Slab', serif;
+   font-size: 24px;
+   text-decoration: underline;
+}
+
+p {
+	color: #f0134d;
+	font-size: 20px;
+	font-family: 'Amiri', serif;
+	line-height: 20px;
+}
+
+a {
+	text-decoration: none;
+	color: #42dee1;
+	font-weight: bold;	
+	text-shadow: 10px 10px 10px red;
+}
+
+a:hover	{
+	color: #ecfcff;
+}
+
+#Thibault	{
+	border-radius: 15%;
+	width: 40%;
+	margin: 0 30%;
+}
+
+#FiveO	{
+	margin: 0 45%;
+	border-radius: 50px
+
+}
+#Football	{
+	width: 30%;
+	border-radius: 50px;
+	margin: 30px 35%;
+}
+
+.container	{
+	width: 1000px;
+	margin: 100px;
+}
+
+@media	(max-width: 760px)	{
+	.container	{
+		width: 500px;
+	}
+}
+
+@media	(max-width: 500px)	{
+	.container	{
+		width:100px;
+	}
+}
+
+.box-blue	{
+	background-color: #10316b;
+	padding: 40px;
+	box-shadow: 10px 10px 10px #3c70a4;
+	border-radius: 10px;
+	margin: 50px 0px;
+}
+
+#btn-red	{
+	background-color: #007065;
+	padding: 10px;
+	border-radius: 10px;
+	margin: 0px 250px;
+}
+
+#btn-red:hover	{
+	background-color: black;
+}	
+
+.list-inline	{
+	list-style: none;
+	padding-left: 0px;
+	margin: 0px 40%;
+	font-size: 40px;
+}
+
+.list-inline li {
+	display: inline;
+}
